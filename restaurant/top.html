@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>公式 Restaurant Italia</title>
+	<style>
+
+		body {
+		  margin: 0;
+		  min-height: 100vh;
+		  display: flex;
+		  flex-direction: column;
+		}
+
+		.top-bar {
+		  width: 100%;
+		  height: 150px;
+		  background-color: #660033;
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  gap: 60px;
+		  padding: 20px 30px;
+		}
+
+		.top-bar nav {
+		  height: 100%;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  gap: 40px;
+		}
+
+		.top-bar a {
+		  color: white;
+		  font-size: 20px;
+		  text-decoration: none;
+		}
+		.top-bar a:hover {
+			color: #bfbfbf;
+		}
+
+		.bottom-bar {
+		  width: 100%;
+		  padding: 25px 0;
+		  background-color: #EAEEF1;
+		  text-align: center;
+		}
+
+		header {
+			background-color: #743638;
+			padding: 30px 0;
+		}
+
+		nav {
+			display: flex;
+			justify-content: center;
+			gap: 70px;
+		}
+
+		main {
+			flex: 1;
+			background-color: #f5f5f5;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.photo-row {
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			gap: 40px;
+		}
+
+		.photo-item img {
+			width: 280px; /* photo size */
+			height: 200px;
+			object-fit: cover; /*place within frame */
+			border-radius: 0px;
+			display: block;
+		}
+
+		.logo {
+			width: 150px;
+			height: auto;
+			flex-shrink: 0;
+		}
+
+		.contact {
+			font-size: 10px;
+			color: black;
+		}
+
+		.copyright {
+			font-size: 9px;
+			color: gray;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<header class="top-bar">
+
+		<img src="logo.png" alt="logo" class="logo">
+
+		<nav>
+			<a href="top.html">TOP</a>
+			<a href="concept.html">CONCEPT</a>
+			<a href="menu.html">MENU</a>
+			<a href="access.html">ACCESS</a>
+		</nav>
+
+	</header>
+
+	<main>
+		<section class="photo-row">
+
+			<div class="photo-item">
+				<img src="dessert.png" alt="dessert">
+			</div>
+
+			<div class="photo-item">
+				<img src="niku.png" alt="pasta">
+			</div>
+
+			<div class="photo-item">
+				<img src="wine.png" alt="wine">
+			</div>
+
+
+		</section>
+	</main>
+
+	<footer class="bottom-bar">
+
+		<p class="contact">
+			〒387-473
+			東京都港区834-098
+			洋館ホール<br>
+			お問い合わせ 783-462-3850
+		</p>
+
+		<p class="copyright">
+			© 2026 Restaurant Italia
+		</p>
+
+	</footer>
+
+</body>
+
+</html>
